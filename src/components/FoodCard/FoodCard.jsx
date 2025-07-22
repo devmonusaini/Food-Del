@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import './FoodCard.css'
 import { assets } from '../../assets/assets'
 import { useState } from 'react'
-import { StoreContext } from '../../context/storeContext'
+import { StoreContext } from '../../context/StoreContext'
 const FoodCard = ({id,name,price,description,image}) => {
   
     const {cartItem,addToCart,removeFromCart}=useContext(StoreContext);
